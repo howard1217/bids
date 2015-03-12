@@ -11,3 +11,5 @@ cat runid.txt | sed 's/\///g' > temp.txt
 egrep -x '[0-9]+' temp.txt > runid.txt
 javac Helper.java
 java Helper
+rm temp.txt
+rm runid.txt
